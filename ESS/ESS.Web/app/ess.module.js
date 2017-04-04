@@ -5,7 +5,9 @@
     "material",
     "ripples",
     "contentMainController",
-    "contentMainDirective"], function (angularAMD) {
+    "contentMainDirective",
+    "loginController",
+    "loginDirective"], function (angularAMD) {
         var app = angular.module("EssApp", []);
 
         return angularAMD.bootstrap(app);
